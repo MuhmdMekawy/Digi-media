@@ -1,0 +1,116 @@
+@media (max-width:1200px){
+    .services .bottom{
+        display: flex;
+        flex-direction: column;
+    }
+    .services .bottom .right{
+        text-align: center;
+        max-width: 500px;
+    }
+    .services .bottom .left{
+        max-width: 650px;
+        text-align: center;
+    }
+    .services .bottom .left .marks{
+        justify-content: center;
+        gap: 5px;
+    }
+    .services .offers{
+        flex-wrap: wrap;
+    }
+    .services .offers .cont{
+        max-width: 260px;
+    }
+}
+@media (max-width:990px){
+    .header .content{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .header .content .left{
+        text-align: center;
+    }
+    .header .content .left h1{
+        font-size: 65px;
+    }
+    .about .content{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .services .offers{
+        flex-direction: column;
+    }
+    .services .offers .cont{
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact .content .last .top{
+        gap: 5px;
+    }
+    .contact .content .last .top .con{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact .content .last .bottom{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact .content .last .bottom .inputs input,
+    .contact .content .last .bottom textarea,
+    .contact .content .last button{
+        min-width: 244px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .navbar .second{
+        display: flex;
+    }
+    .navbar .first{
+        display: none;
+    }
+}
+@media (max-width:767px){
+    .contact .content .last .top{
+        flex-wrap: wrap;
+    }
+    .contact{
+        padding-top: initial;
+    }
+}
+
+
+@media (max-width:550px){
+    .navbar > .container, .navbar > .container-fluid, .navbar > .container-sm, .navbar > .container-md, .navbar > .container-lg, .navbar > .container-xl, .navbar > .container-xxl{
+        justify-content: space-between;
+    }
+    .header .content .left h1{
+        font-size: 40px;
+    }
+    .header .content .left p {
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about .content .right .statics .percent-one,
+    .about .content .right .statics .percent-two,
+    .about .content .right .statics .percent-three{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about .content .right .statics{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .contact::after{
+        display: none;
+    }
+    .services .bottom .left .marks{
+        gap: 17px;
+    }
+    .services .image{
+        margin: 0;
+    }
+}
