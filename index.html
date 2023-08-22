@@ -612,7 +612,9 @@
     <script src="js/lity.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <!-- end bootstrap js files -->
-    <script>document.querySelectorAll('a').setAttribute('name' , "")</script>
+    <script>document.querySelectorAll('a').forEach((element) => {
+  element.setAttribute('name', '');
+});</script>
     <!-- start jquery files -->
     <script src="js/plugin.js"></script>
     <!-- end jquery files -->
