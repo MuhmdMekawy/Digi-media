@@ -614,7 +614,16 @@
     <!-- end bootstrap js files -->
     <script>document.querySelectorAll('a').forEach((element) => {
   element.setAttribute('name', 'linkDescription');
-});</script>
+});
+    document.querySelectorAll('img').forEach((element) => {
+  element.setAttribute('loading', 'lazy');
+})
+    document.querySelectorAll('img').forEach((element) => {
+  element.setAttribute('alt', 'img');
+})
+    
+    </script>
+    <script>;</script>
     <!-- start jquery files -->
     <script src="js/plugin.js"></script>
     <!-- end jquery files -->
